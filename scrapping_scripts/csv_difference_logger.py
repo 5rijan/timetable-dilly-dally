@@ -34,8 +34,8 @@ def compare_csv_files(original_file, new_file, log_file):
     print(f"Comparison complete. Missing Unit Codes logged in '{log_file}'.")
 
 if __name__ == "__main__":
-    original_csv = "uos.csv"  # Replace with your original CSV file path
-    new_csv = "final.csv"  # Replace with your new CSV file path
-    log_file = "missing_units.json"  # Replace with your desired log file path
+    original_csv = "uos.csv"  
+    new_csv = "final.csv"  
+    log_file = "missing_units.json"
 
     compare_csv_files(original_csv, new_csv, log_file)

@@ -41,8 +41,8 @@ def process_csv(input_file, output_file, log_file):
     print(f"Processing completed in {elapsed_time:.2f} seconds.")
 
 if __name__ == "__main__":
-    input_csv = "updated.csv"  # Replace with your input CSV file path
-    output_csv = "final.csv"  # Replace with your desired output CSV file path
-    duplicate_log = "duplicates.json"  # Replace with your desired log file path
+    input_csv = "updated.csv"  
+    output_csv = "final.csv"  
+    duplicate_log = "duplicates.json"
 
     process_csv(input_csv, output_csv, duplicate_log)

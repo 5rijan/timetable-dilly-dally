@@ -19,7 +19,7 @@ payload = {
 # Headers (if needed)
 headers = {
     "Content-Type": "application/x-www-form-urlencoded",
-    "User-Agent": "YourAppName/1.0"  # Good practice to identify your script
+    "User-Agent": "YourAppName/1.0" 
 }
 
 # Sending the POST request
