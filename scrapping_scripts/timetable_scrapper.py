@@ -8,12 +8,6 @@ url = "https://timetable.sydney.edu.au/odd/rest/timetable/subjects"
 payload = {
     "search-term": "COMP2017",
     "semester": ["S1C", "S1CG", "S1CIAP", "S1CIMR", "S2C"],
-    "campus": "ALL",
-    "faculty": "ALL",
-    "type": "ALL",
-    "days": ["1"],
-    "start-time": "00:00",
-    "end-time": "22:00"
 }
 
 # Headers (if needed)
